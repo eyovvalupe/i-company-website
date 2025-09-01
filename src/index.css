@@ -1,0 +1,303 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 224 82% 11%;
+    --foreground: 210 40% 98%;
+
+    --card: 224 71% 4%;
+    --card-foreground: 213 31% 91%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 170 100% 50%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    
+    --teal: 170 100% 50%;
+    --purple: 266 100% 64%;
+    --bright-blue: 198 100% 48%;
+    --bright-orange: 24 100% 53%;
+  }
+
+  * {
+    @apply border-border;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-navy text-slate font-inter;
+  }
+  
+  /* Light mode styles */
+  html.light-mode {
+    --background: 0 0% 98%;
+    --foreground: 222.2 84% 4.9%;
+  }
+  
+  html.light-mode body {
+    @apply bg-white text-slate-dark;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-space text-white;
+  }
+  
+  .light-mode h1, 
+  .light-mode h2, 
+  .light-mode h3, 
+  .light-mode h4, 
+  .light-mode h5, 
+  .light-mode h6 {
+    @apply text-navy-dark;
+  }
+  
+  .section-heading {
+    @apply font-space text-3xl md:text-4xl font-bold relative mb-8 text-white;
+  }
+  
+  .light-mode .section-heading {
+    @apply text-navy-dark;
+  }
+  
+  .section-heading::before {
+    content: '';
+    @apply absolute bottom-0 left-0 w-16 h-1 bg-teal -mb-3;
+    animation: pulse 2s infinite;
+  }
+  
+  .nav-link {
+    @apply relative inline-block font-medium text-slate hover:text-teal transition-colors duration-300;
+  }
+  
+  .light-mode .nav-link {
+    @apply text-navy-dark hover:text-teal;
+  }
+  
+  .nav-link::after {
+    content: '';
+    @apply absolute left-0 bottom-0 w-0 h-0.5 bg-teal transition-all duration-300 ease-in-out;
+  }
+  
+  .nav-link:hover::after {
+    @apply w-full;
+  }
+  
+  .timeline-item {
+    @apply pl-8 border-l border-slate-dark relative mb-10;
+  }
+  
+  .light-mode .timeline-item {
+    @apply border-slate;
+  }
+  
+  .timeline-item::before {
+    content: '';
+    @apply absolute w-4 h-4 rounded-full bg-teal -left-2 top-1;
+    animation: pulse 2s infinite;
+  }
+  
+  .project-card {
+    @apply bg-navy-light rounded-lg p-6 transition-all duration-300;
+    box-shadow: 0 5px 15px rgba(100, 255, 218, 0.05);
+  }
+  
+  .light-mode .project-card {
+    @apply bg-white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  .project-card:hover {
+    @apply transform -translate-y-2;
+    box-shadow: 0 10px 25px rgba(100, 255, 218, 0.2);
+  }
+  
+  .light-mode .project-card:hover {
+    box-shadow: 0 10px 25px rgba(100, 255, 218, 0.3);
+  }
+  
+  /* Teal glow shadow effect */
+  .shadow-teal-glow:hover {
+    box-shadow: 0 0 25px rgba(100, 255, 218, 0.3);
+    transform: translateY(-5px);
+  }
+  
+  /* Three.js canvas container */
+  .three-bg {
+    @apply fixed top-0 left-0 w-full h-screen z-[-1] opacity-80;
+  }
+  
+  .light-mode .three-bg {
+    @apply opacity-30;
+  }
+  
+  /* Skill bar */
+  .skill-bar {
+    @apply h-2 bg-navy-light rounded-full overflow-hidden relative;
+  }
+  
+  .skill-progress {
+    @apply h-full absolute top-0 left-0 rounded-full;
+    background: linear-gradient(90deg, #64ffda 0%, #0EA5E9 100%);
+    box-shadow: 0 0 10px rgba(100, 255, 218, 0.5);
+  }
+  
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    @apply bg-navy-dark;
+  }
+  
+  .light-mode ::-webkit-scrollbar-track {
+    @apply bg-slate-light;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    @apply bg-navy-light rounded-full;
+  }
+  
+  .light-mode ::-webkit-scrollbar-thumb {
+    @apply bg-slate rounded-full;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-slate-dark;
+  }
+  
+  .light-mode ::-webkit-scrollbar-thumb:hover {
+    @apply bg-slate-dark;
+  }
+  
+  /* Animation keyframes */
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  @keyframes pulse {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.6;
+    }
+  }
+  
+  @keyframes glow {
+    0%, 100% {
+      box-shadow: 0 0 10px rgba(100, 255, 218, 0.3);
+    }
+    50% {
+      box-shadow: 0 0 20px rgba(100, 255, 218, 0.7);
+    }
+  }
+  
+  /* Bright text effects */
+  .text-gradient {
+    @apply font-bold;
+    background: linear-gradient(90deg, #64ffda, #0EA5E9, #8B5CF6);
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 3s linear infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .vertical-text {
+    writing-mode: vertical-rl;
+  }
+  
+  /* Light mode specific styles for sections */
+  .light-mode .bg-navy-dark {
+    @apply bg-slate-50;
+  }
+  
+  .light-mode .bg-navy {
+    @apply bg-white;
+  }
+  
+  .light-mode .bg-navy-light {
+    @apply bg-white;
+  }
+  
+  .light-mode .text-slate {
+    @apply text-slate-dark;
+  }
+  
+  .light-mode .border-slate-dark {
+    @apply border-slate;
+  }
+  
+  /* Light mode improvements for better text visibility */
+  .light-mode p {
+    @apply text-navy-dark;
+  }
+  
+  .light-mode .text-slate-light {
+    @apply text-navy-dark;
+  }
+  
+  /* Add light mode support for Navbar */
+  .light-mode header {
+    @apply bg-white/90 backdrop-blur-md;
+  }
+  
+  .light-mode header.scrolled {
+    @apply bg-white/90 backdrop-blur-md shadow-lg;
+  }
+  
+  /* Improved light mode text visibility for various components */
+  .light-mode .project-card p {
+    @apply text-navy-dark;
+  }
+  
+  .light-mode .project-card h3 {
+    @apply text-navy-dark;
+  }
+  
+  .light-mode .text-white {
+    @apply text-navy-dark;
+  }
+}
