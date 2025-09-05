@@ -78,7 +78,7 @@ const Navbar = () => {
                 </a>
               </motion.li>
             ))}
-            <motion.li variants={itemVariants}>
+            {/* <motion.li variants={itemVariants}>
               <Button 
                 variant="outline" 
                 className="border-teal text-teal hover:bg-teal/10"
@@ -86,7 +86,7 @@ const Navbar = () => {
               >
                 Resume
               </Button>
-            </motion.li>
+            </motion.li> */}
           </ul>
         </motion.nav>
 
@@ -141,7 +141,7 @@ const Navbar = () => {
                   </a>
                 </li>
               ))}
-              <li>
+              {/* <li>
                 <Button 
                   variant="outline" 
                   className="border-teal text-teal hover:bg-teal/10 w-full"
@@ -152,7 +152,7 @@ const Navbar = () => {
                 >
                   Resume
                 </Button>
-              </li>
+              </li> */}
             </ul>
           </div>
         </motion.div>

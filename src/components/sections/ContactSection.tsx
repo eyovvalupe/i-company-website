@@ -76,14 +76,14 @@ const ContactSection = () => {
                     </div>
                     <div className="text-left">
                       <p className="text-teal font-medium">Email</p>
-                      <p className="text-white light-mode:text-navy-dark text-lg">enjoyablecoder1758981@gmail.com</p>
+                      <p className="text-white light-mode:text-navy-dark text-lg">jakewoodall001@gmail.com</p>
                     </div>
                   </div>
 
                   
                 </a>
 
-                <a 
+                {/* <a 
                   href="tel:+41786084615" 
                   className="flex gap-4 text-slate light-mode:text-slate-dark hover:text-teal transition-colors group"
                 >
@@ -96,7 +96,7 @@ const ContactSection = () => {
                       <p className="text-white light-mode:text-navy-dark text-lg">@Enjoyablecode</p>
                     </div>
                   </div>
-                </a>
+                </a> */}
               </div>
             </div>
 

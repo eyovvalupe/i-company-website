@@ -8,6 +8,10 @@ const skills = [
   { name: "Next.js", level: 95 },
   { name: "Vue.js", level: 95 },
   { name: "React Native(Expo)", level: 92 },
+  { name: "Swift", level: 98 },
+  { name: "SwiftUI", level: 98 },
+  { name: "ARKit", level: 95 },
+  { name: "RealityKit", level: 95 },
   { name: "Node.js", level: 95 },
   { name: "Nest.js", level: 95 },
   { name: "Laravel", level: 95 },
@@ -23,10 +27,10 @@ const languageSkills = [
 
 const education = [
   {
-    degree: "Engineer's degree of Computer Science",
-    institution: "The Art Institute",
-    location: "Tianjin, China",
-    period: "2013 - 2017"
+    degree: "Bachelor's degree of Computer Science",
+    institution: "Central Washington University",
+    location: "Washington, USA",
+    period: "2021 - 2025"
   }
 ];
 
@@ -40,6 +44,7 @@ const technologiesByCategory = {
     "WebSocket", "JWT / OAuth2", "API Development"
   ],
   "Mobile": [
+    "Swift", "SwiftUI", "ARKit", "RealityKit",
     "React Native (Expo)", "React Native Paper", "NativeBase", 
     "React Native Elements", "UI Kitten", "React Navigation", "React Native Navigation"
   ],
@@ -115,11 +120,11 @@ const AboutSection = () => {
               <p className="mb-4">
                 Hello! I'm a passionate full stack developer with a love for creating 
                 beautiful, functional, and user-centered digital experiences. My 
-                journey in web development started back in 2017, and I've been 
+                journey in developing started back in 2020, and I've been 
                 hooked ever since.
               </p>
               <p className="mb-4">
-                I enjoy the entire process of developing creative websites - from 
+                I enjoy the entire process of developing creative websites and mobile apps - from 
                 planning and designing all the way to solving real-life problems with code. 
                 My goal is to always build products that provide robust, pixel-perfect,
                 performant experiences.
@@ -146,7 +151,7 @@ const AboutSection = () => {
                 </div>
                 <div>
                   <h4 className="text-white light-mode:text-navy-dark font-medium">Location</h4>
-                  <p className="text-slate light-mode:text-slate-dark">Tianjin, China</p>
+                  <p className="text-slate light-mode:text-slate-dark">Washington, USA</p>
                 </div>
               </motion.div>
             </motion.div>
@@ -203,7 +208,7 @@ const AboutSection = () => {
           </motion.div>
           
           {/* Language Skills Section */}
-          <motion.div 
+          {/* <motion.div 
             variants={containerVariants}
             className="mt-16"
           >
@@ -235,7 +240,7 @@ const AboutSection = () => {
                 </motion.div>
               ))}
             </div>
-          </motion.div>
+          </motion.div> */}
           
           {/* Technology Categories */}
           <motion.div 

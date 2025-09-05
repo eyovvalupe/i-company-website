@@ -14,7 +14,7 @@ import { motion } from 'framer-motion';
 
 const Index = () => {
   useEffect(() => {
-    document.title = "Full Stack Developer Portfolio";
+    document.title = "Jake Woodall";
   }, []);
 
   return (

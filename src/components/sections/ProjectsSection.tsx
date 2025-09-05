@@ -7,6 +7,17 @@ import { Card } from '@/components/ui/card';
 const projects = [
   {
     id: 1,
+    title: "iBite",
+    description:
+      "iBite helps you to solve the food ordering decision process by offering digital menu services with augmented reality and artificial intelligence technology.",
+    tags: ["React", "TypeScript", "Firebase", "Nodejs", "React Native", "Swift"],
+    demoLink: "https://ibite.app/",
+    codeLink: "#",
+    image: "/ibite.webp",
+    reverse: false,
+  },
+  {
+    id: 2,
     title: "Saas Platform",
     description:
       "GymSales is a cloud-based SaaS platform developed by ABC Fitness Solutions, designed to streamline and enhance sales processes for fitness businesses, including gyms, health clubs, and fitness franchises. It serves as a comprehensive fitness CRM and lead management tool, aiming to help fitness operators capture, nurture, and convert leads into members efficiently.",
@@ -17,7 +28,7 @@ const projects = [
     reverse: false,
   },
   {
-    id: 2,
+    id: 3,
     title: "Web3-Centralized Exchange Platform",
     description:
       "SunEx is a digital platform managed by a central authority that facilitates the buying, selling, and trading of cryptocurrencies. Users deposit their funds into the exchange, which then handles the transactions, matching buy and sell orders. This model is akin to traditional financial markets, where the exchange acts as an intermediary between traders.",
@@ -28,7 +39,7 @@ const projects = [
     reverse: true,
   },
   {
-    id: 3,
+    id: 4,
     title: "Real-Ecommerce App",
     description:
       "EveryUSB is a specialized e-commerce platform that focuses on providing custom USB flash drives and related promotional products. The website offers a range of services, including data preloading, custom packaging, and various imprint methods to personalize USB drives for businesses and organizations.",
