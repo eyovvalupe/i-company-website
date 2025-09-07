@@ -32,7 +32,7 @@ const EmailSidebar = () => {
       animate="visible"
     >
       <motion.a 
-        href="mailto:jakewoodall001@gmail.com" 
+        href="mailto:jakewoodall002@gmail.com" 
         className="font-mono tracking-widest vertical-text transform transition-all duration-300"
         style={{ writingMode: 'vertical-rl' }}
         variants={linkVariants}
@@ -40,7 +40,7 @@ const EmailSidebar = () => {
         whileHover="hover"
         whileTap={{ scale: 0.95 }}
       >
-        jakewoodall001@gmail.com
+        jakewoodall002@gmail.com
       </motion.a>
       <motion.div 
         className="w-px h-24 bg-teal mt-6"

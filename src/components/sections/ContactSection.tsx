@@ -76,7 +76,7 @@ const ContactSection = () => {
                     </div>
                     <div className="text-left">
                       <p className="text-teal font-medium">Email</p>
-                      <p className="text-white light-mode:text-navy-dark text-lg">jakewoodall001@gmail.com</p>
+                      <p className="text-white light-mode:text-navy-dark text-lg">jakewoodall002@gmail.com</p>
                     </div>
                   </div>
 
