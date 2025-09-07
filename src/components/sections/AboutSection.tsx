@@ -27,7 +27,7 @@ const languageSkills = [
 
 const education = [
   {
-    degree: "Bachelor's degree of Computer Science",
+    degree: "Bachelor of Business Administration",
     institution: "Central Washington University",
     location: "Washington, USA",
     period: "2021 - 2025"
