@@ -69,7 +69,7 @@ const HeroSection = () => {
           className="text-slate max-w-xl text-lg mb-10"
           variants={itemVariants}
         >
-          Welcome! I'm Jake Woodall, a full-stack developer with 8+ years of experience specializing in building exceptional digital
+          Welcome! I'm Jake Woodall, a full-stack developer with 5+ years of experience specializing in building exceptional digital
           experiences as well as an iOS developer specializing in Swift, SwiftUI, ARKit, and RealityKit.
           I studied Business Administration at Central Washington University, where I developed a strong interest in finance and tech strategy.
           Currently, I'm focused on creating accessible, responsive and robust web and mobile applications with engaging user interfaces.
