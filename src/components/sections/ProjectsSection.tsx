@@ -10,7 +10,7 @@ const projects = [
     title: "iBite",
     description:
       "iBite helps you to solve the food ordering decision process by offering digital menu services with augmented reality and artificial intelligence technology.",
-    tags: ["React", "TypeScript", "Firebase", "Nodejs", "React Native", "Swift"],
+    tags: ["React", "TypeScript", "Firebase", "Nodejs", "React Native", "Android", "Swift", "IOS"],
     demoLink: "https://ibite.app/",
     codeLink: "#",
     image: "/ibite.webp",
