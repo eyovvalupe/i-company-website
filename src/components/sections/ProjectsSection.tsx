@@ -53,7 +53,7 @@ const projects = [
 
 const otherProjects = [
   {
-    title: "Upwork- Selliox SaaS Platform",
+    title: "SaaS - Selliox",
     description: "Selliox is a robust SaaS platform designed to empower entrepreneurs, small businesses, and agencies to quickly launch and manage fully functional e-commerce stores.",
     tags: ["React", "Node.js", "Stripe"],
     url: "https://Selliox.com",
