@@ -59,6 +59,12 @@ const otherProjects = [
     url: "https://Selliox.com",
   },
   {
+    title: "SaaS - GymSale",
+    description: "GymSales by ABC Fitness Solutions is a cloud-based CRM and lead management platform that helps gyms and fitness businesses streamline sales and convert leads into members.",
+    tags: ["React", "React Native", "Ruby on Rails", "Stripe"],
+    url: "https://gymsales.io",
+  },
+  {
     title: "TON - NFT Market Platform",
     description: "A next-generation NFT marketplace built on the TON (The Open Network) blockchain, enabling fast, secure, and scalable trading of digital assets.",
     tags: ["React", "Func", "TON"],
