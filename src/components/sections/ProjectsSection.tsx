@@ -32,7 +32,7 @@ const projects = [
     title: "Web3-Centralized Exchange Platform",
     description:
       "SunEx is a digital platform managed by a central authority that facilitates the buying, selling, and trading of cryptocurrencies. Users deposit their funds into the exchange, which then handles the transactions, matching buy and sell orders. This model is akin to traditional financial markets, where the exchange acts as an intermediary between traders.",
-    tags: ["Vue3", "Tailwind CSS", "Webpack", "Vite", "Java"],
+    tags: ["Vue3", "Tailwind CSS", "Webpack", "Webpack", "Vite", "Node"],
     demoLink: "https://www.sungame.shop/",
     codeLink: "#",
     image: "/sunex.jpg",
