@@ -16,19 +16,19 @@ const projects = [
     image: "/ibite.webp",
     reverse: false,
   },
-  // {
-  //   id: 2,
-  //   title: "Saas Platform",
-  //   description:
-  //     "GymSales is a cloud-based SaaS platform developed by ABC Fitness Solutions, designed to streamline and enhance sales processes for fitness businesses, including gyms, health clubs, and fitness franchises. It serves as a comprehensive fitness CRM and lead management tool, aiming to help fitness operators capture, nurture, and convert leads into members efficiently.",
-  //   tags: ["React", "Ruby on Rails", "PostgreSQL", "Stripe", "React Native"],
-  //   demoLink: "https://gymsales.io/",
-  //   codeLink: "#",
-  //   image: "/gymsales.jpg",
-  //   reverse: false,
-  // },
   {
     id: 2,
+    title: "Saas Platform",
+    description:
+      "Vanlo is a buying group for eCommerce companies that leverages the collective volume of our members to negotiate and furnish discounts on a number of technical and operational services.",
+    tags: ["React", "React Tool Kit", "React Hook Form", "Ruby on Rails", "PostgreSQL", "Stripe", "React Native", "Plaid"],
+    demoLink: "https://vanlo.com/",
+    codeLink: "#",
+    image: "/vanlo.jpg",
+    reverse: true,
+  },
+  {
+    id: 3,
     title: "Web3-Centralized Exchange Platform",
     description:
       "SunEx is a digital platform managed by a central authority that facilitates the buying, selling, and trading of cryptocurrencies. Users deposit their funds into the exchange, which then handles the transactions, matching buy and sell orders. This model is akin to traditional financial markets, where the exchange acts as an intermediary between traders.",
@@ -36,10 +36,10 @@ const projects = [
     demoLink: "https://www.sungame.shop/",
     codeLink: "#",
     image: "/sunex.jpg",
-    reverse: true,
+    reverse: false,
   },
   {
-    id: 3,
+    id: 4,
     title: "Real-Ecommerce App",
     description:
       "EveryUSB is a specialized e-commerce platform that focuses on providing custom USB flash drives and related promotional products. The website offers a range of services, including data preloading, custom packaging, and various imprint methods to personalize USB drives for businesses and organizations.",
@@ -47,7 +47,7 @@ const projects = [
     demoLink: "https://everyusb.com",
     codeLink: "#",
     image: "/everyusb.jpg",
-    reverse: false,
+    reverse: true,
   },
 ];
 
