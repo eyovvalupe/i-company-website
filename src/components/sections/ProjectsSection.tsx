@@ -10,7 +10,7 @@ const projects = [
     title: "iBite",
     description:
       "iBite helps you to solve the food ordering decision process by offering digital menu services with augmented reality and artificial intelligence technology.",
-    tags: ["React", "TypeScript", "Firebase", "Nodejs", "React Native", "Android", "Swift", "IOS"],
+    tags: ["React", "TypeScript", "Zustain", "Firebase", "Nodejs", "React Native", "Android", "Swift", "IOS"],
     demoLink: "https://ibite.app/",
     codeLink: "#",
     image: "/ibite.webp",
@@ -32,7 +32,7 @@ const projects = [
     title: "Web3-Centralized Exchange Platform",
     description:
       "SunEx is a digital platform managed by a central authority that facilitates the buying, selling, and trading of cryptocurrencies. Users deposit their funds into the exchange, which then handles the transactions, matching buy and sell orders. This model is akin to traditional financial markets, where the exchange acts as an intermediary between traders.",
-    tags: ["Vue3", "Tailwind CSS", "Webpack", "Webpack", "Vite", "Node"],
+    tags: ["Vue3", "Tailwind CSS", "Webpack", "Vite", "Node"],
     demoLink: "https://www.sungame.shop/",
     codeLink: "#",
     image: "/sunex.jpg",

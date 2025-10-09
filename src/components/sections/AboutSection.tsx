@@ -27,10 +27,14 @@ const languageSkills = [
 
 const education = [
   {
+    degree: "Bachelor of Computer Science",
+    institution: "Central Washington University",
+    location: "Washington, USA",
+  },
+  {
     degree: "Bachelor of Business Administration",
     institution: "Central Washington University",
     location: "Washington, USA",
-    period: "2021 - 2025"
   }
 ];
 
@@ -201,7 +205,7 @@ const AboutSection = () => {
                   <h4 className="text-xl font-bold text-white light-mode:text-navy-dark">{item.degree}</h4>
                   {/* <p className="text-teal mt-1">{item.institution}</p> */}
                   <p className="text-slate light-mode:text-slate-dark">{item.location}</p>
-                  <p className="text-slate-dark light-mode:text-slate mt-2">{item.period}</p>
+                  {/* <p className="text-slate-dark light-mode:text-slate mt-2">{item.period}</p> */}
                 </motion.div>
               ))}
             </div>
