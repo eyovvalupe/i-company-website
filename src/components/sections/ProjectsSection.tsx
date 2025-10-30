@@ -65,16 +65,16 @@ const otherProjects = [
     url: "https://gymsales.io",
   },
   {
+    title: "SaaS - CleanBootcamp",
+    description: "CleanBootcamp is a comprehensive platform that helps you build, scale, and optimize your cleaning business. Start with priority consulting, then explore our specialized business tools.",
+    tags: ["Bolt", "React.js", "Node.js", "Stripe"],
+    url: "https://rocket.fun",
+  },
+  {
     title: "TON - NFT Market Platform",
     description: "A next-generation NFT marketplace built on the TON (The Open Network) blockchain, enabling fast, secure, and scalable trading of digital assets.",
     tags: ["React", "Func", "TON"],
     url: "https://getgems.io/",
-  },
-  {
-    title: "Solana - Meme coin Market Place",
-    description: "Rocket.fun is the meme fair launch platform on the Solana blockchain, designed to simplify the creation and trading of meme coins.",
-    tags: ["Next.js", "Node.js", "Anchor"],
-    url: "https://rocket.fun",
   },
   {
     title: "Dating app - Frienzy",
