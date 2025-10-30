@@ -68,7 +68,7 @@ const otherProjects = [
     title: "SaaS - CleanBootcamp",
     description: "CleanBootcamp is a comprehensive platform that helps you build, scale, and optimize your cleaning business. Start with priority consulting, then explore our specialized business tools.",
     tags: ["Bolt", "React.js", "Node.js", "Stripe"],
-    url: "https://rocket.fun",
+    url: "https://cleaning-business-bo-xx6j.bolt.host/",
   },
   {
     title: "TON - NFT Market Platform",
