@@ -21,7 +21,7 @@ const projects = [
     title: "Saas Platform",
     description:
       "Vanlo is a buying group for eCommerce companies that leverages the collective volume of our members to negotiate and furnish discounts on a number of technical and operational services.",
-    tags: ["React", "React Tool Kit", "React Hook Form", "Ruby on Rails", "PostgreSQL", "Stripe", "React Native", "Plaid"],
+    tags: ["Next", "React Tool Kit", "React Hook Form", "Ruby on Rails", "PostgreSQL", "Stripe", "React Native", "Plaid"],
     demoLink: "https://vanlo.com/",
     codeLink: "#",
     image: "/vanlo.jpg",
